@@ -88,7 +88,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
+      primary: "#52120d", 
       secondary: "#2F3136", 
 
       // Standard status colors for success/error/warning/info messages.
@@ -236,7 +236,7 @@ export const botConfig = {
     },
 
     // Default priority for new tickets.
-    defaultPriority: "none",
+    defaultPriority: "low",
 
     // Category ID where closed tickets are archived.
     archiveCategory: 1511012332023840810,
@@ -436,8 +436,8 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
-    leveling: true,
+    economy: false,
+    leveling: false,
     moderation: true,
     logging: true,
     welcome: true,
@@ -446,7 +446,7 @@ export const botConfig = {
     tickets: true,
     giveaways: true,
     birthday: true,
-    counter: true,
+    counter: false,
 
     // Security and self-service systems.
     verification: true,
