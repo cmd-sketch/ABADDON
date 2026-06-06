@@ -1,9 +1,10 @@
 ﻿import 'dotenv/config';
 import {
     Client,
-      GatewayIntentBits,
-        Partials
-        } from "discord.js";
+    Collection,
+    GatewayIntentBits,
+    Partials
+} from "discord.js";
 
 import { REST } from '@discordjs/rest';
 import express from 'express';
