@@ -384,3 +384,8 @@ export default TitanBot;
 
 
 
+GatewayIntentBits.GuildMessageReactions
+
+Partials.Message,
+Partials.Reaction,
+Partials.User
