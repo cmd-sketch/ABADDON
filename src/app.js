@@ -21,6 +21,10 @@ class TitanBot extends Client {
         GatewayIntentBits.Guilds,                        
         GatewayIntentBits.GuildMembers,                 
         
+
+        Partials.Message,
+        Partials.Reaction,
+        Partials.User,
         
         GatewayIntentBits.GuildMessages,                
         GatewayIntentBits.GuildMessageReactions,        
@@ -384,8 +388,3 @@ export default TitanBot;
 
 
 
-GatewayIntentBits.GuildMessageReactions
-
-Partials.Message,
-Partials.Reaction,
-Partials.User
